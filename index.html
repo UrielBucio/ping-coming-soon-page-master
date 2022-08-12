@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/main.js" defer></script>
 </head>
 <body>
-
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
+  <main class="main_container">
+    <div class="logo_container"></div>
+    <section class="subscribe_container">
+      <h1>We are launching soon!</h1>
+      <p>Subscribe and get notified</p>
+      <div class="inputs_container">
+        <input type="email" class="input_email" placeholder="Your email address...">
+        <input type="submit" value="Notify Me" class="btn_notify">
+      </div>
+    </section>
+    <div class="image_container"></div>
+    <div class="footer">
+      <div class="icon_social">
+        <div class="icon_facebook"></div>
+        <div class="icon_twitter"></div>
+        <div class="icon_instagram"></div>
+      </div>
+      <p> &copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
