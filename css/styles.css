@@ -126,3 +126,50 @@ svg {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .main_container {
+        width: 60%;
+    }
+    .logo_container {
+        background-size: contain;
+        width: 18%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main_container {
+        width: 80%;
+    }
+    .logo_container {
+        height: 2rem;
+        width: 20%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .main_container {
+        width: 80%;
+    }
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        margin: 5.313rem 0 3.125rem 0;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .inputs_container {
+        flex-direction: column;
+    }
+    .input_email {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .btn_notify {
+        width: 100%;
+    }
+    .input_label {
+        bottom: 45%;
+        font-size: 0.7rem;
+        right: 10%;
+    }
+}
